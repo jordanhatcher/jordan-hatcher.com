@@ -1,0 +1,24 @@
+version: '3'
+services:
+  jordan-hatcher.com:
+    image: latest-hugo:latest
+    expose:
+      - 80
+    environment:
+      - VIRTUAL_HOST=jordan-hatcher.com,www.jordan-hatcher.com
+      - HUGO_BASE_URL=https://jordan-hatcher.com
+      - HUGO_PORT=80
+      - HUGO_BIND=0.0.0.0
+    volumes:
+      - /home/jordan/website-data/src:/data
+    restart: always
+
+  jordan-hatcher-listener:
+    images: listener:latest
+    expose:
+      - 80
+    environment:
+      - VIRTUAL_HOST=webook.jordan-hatcher.com
+    volumes:
+      - /home/jordan/website-data:/data
+    restart: always
