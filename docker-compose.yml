@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   jordan-hatcher.com:
     image: latest-hugo:latest
@@ -11,6 +11,7 @@ services:
       - HUGO_BIND=0.0.0.0
     volumes:
       - /home/jordan/website-data/src:/data
+    network_mode: bridge
     restart: always
 
   jordan-hatcher-listener:
@@ -21,4 +22,5 @@ services:
       - VIRTUAL_HOST=webook.jordan-hatcher.com
     volumes:
       - /home/jordan/website-data:/data
+    network_mode: bridge
     restart: always
