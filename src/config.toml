@@ -15,3 +15,7 @@ fa_icon = "fa-github"
 [[params.social]]
 url = "https://twitter.com/jrdhtc"
 fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
