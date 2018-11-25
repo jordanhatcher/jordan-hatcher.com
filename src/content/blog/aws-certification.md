@@ -49,7 +49,7 @@ course on udemy (free coupon codes can be found online for two of the tests).
 Doing these tests, as well as the acloud.guru mega quizzes the day before the exam
 helped get me to get in the right mindset before taking the exam.
 
-The last tip that I have is to flag any questions that you're unscertain about
+The last tip that I have is to flag any questions that you're uncertain about
 during the exam. It allows you to visually see approximately how well you are
 doing during the exam, and you can return to those questions if you have time
 at any point during the exam. Remember that it's probably good to aim for at
