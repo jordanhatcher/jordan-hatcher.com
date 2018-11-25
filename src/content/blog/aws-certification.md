@@ -1,5 +1,5 @@
 +++
-title = "Studying for the AWS Certified Solutions Architect Associate exam"
+title = "Preparing for the AWS Certified Solutions Architect Associate Exam"
 date = 2018-11-25T11:55:05-04:00
 draft = false
 +++
