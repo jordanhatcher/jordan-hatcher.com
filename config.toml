@@ -1,0 +1,63 @@
+baseURL = "jordan-hatcher.com"
+languageCode = "en-us"
+title = "Jordan Hatcher"
+theme = "micro"
+
+
+[menu]
+
+[[menu.main]]
+  name = "Jordan Hatcher"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 5
+
+
+[params]
+
+[[params.social]]
+url = "https://github.com/jordanhatcher"
+src = "/img/github.png"
+alt = "GitHub"
+
+[[params.social]]
+url = "https://twitter.com/jrdhtc"
+src = "/img/twitter.svg"
+alt = "Twitter"
+
+[[params.social]]
+url = "/index.xml"
+src = "/img/rss.svg"
+alt = "RSS"
+
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-dark"
+    tabWidth = 4

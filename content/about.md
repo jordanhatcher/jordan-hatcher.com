@@ -2,7 +2,6 @@
 title = "About"
 +++
 
-# About
 I am a computer engineering graduate from the University of Ottawa, and I currently
 work in Ottawa as a software developer. My interests include Python, cloud computing,
 DevOps, IoT, and digital privacy. Some of my hobbies include rock climbing, snowboarding, and chess.
